@@ -10,6 +10,9 @@
         public string Address { get; set; }
         public int Phone { get; set; }
 
+        public int OrderId { get; set; }
+        public Order Order { get; set; }
+
 
     }
 }
